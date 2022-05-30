@@ -1,0 +1,221 @@
+body {
+    font-size: 67.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #eacfbe;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: #214470;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding-left: 10px;
+}
+
+h2 {
+    color: #214470;
+    font-size: 1.7em;
+    padding-left: 10px;
+    margin: 0.5em 0 0.35em o;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #214470;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px; 
+}
+
+ul {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+
+ul li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+
+a, a:visited {
+    color: #214470;
+}
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+div.clear {
+    clear: both;
+    font-size: 1%;
+}
+
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: #eacfbe url(assets/newback2.jpg) center no-repeat;
+    background-size: cover;
+    border-bottom: #a1386c solid 5px;
+}
+
+header h1 {
+    font-family: snell roundhand;
+    color:#a1386c;
+    font-size: 8em;
+    letter-spacing: 0.04em;
+    margin: 0;
+    text-shadow: 2px 3px 0 #214470;
+}
+
+header h2 {
+    font-weight: 300;
+    font-size: 3.8em;
+    color: #214470;
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 2px #fbf3db;
+}
+
+nav {
+    color: #40362f;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #214470;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color:#a1386c;
+    background-color: rgba(252,251,243,0.75);
+}
+
+nav#utilityMenu li a.hover {
+    background-color: transparent;
+}
+
+nav#utilityMenu ul li input#search {
+    vertical-align: middle;
+    margin: .75em;
+    padding: .55em;
+}
+
+section#sidebar {
+    width: 200px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 1.5em 3.0em 3.0em 1.5em;
+    padding: 1.7em 0 3.0em 1.5em;
+    border-left: #a1386c solid 5px;
+}
+
+section #main {
+    background-color: rgba(252, 251, 243, 0.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em 0 2.0em 1,5em;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 3.0em;
+    color: #214470;
+    margin: 0.6em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    text-shadow: 1px 1px #fbf3db;
+}
+
+section div.panel {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;;
+    border-radius: 0.6em;
+}
+
+section div.panel:hover {
+transform: scale(1.03);
+}
+
+footer {
+    background-color: #40362f;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "|";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #40362f;
+    background-color:#fff;
+    padding: 20px;
+    text-decoration: solid;
+}
+
+button {
+    color: #a1386c;
+    background-color: #fff;
+    position:sticky;
+    margin: 1em 0.7em;
+    padding: 0.2em 0.5em;
+    border: 1px solid #a1386c;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #eacfbe;
+    color:#214470;
+    border: 1px solid #214470;
+}
